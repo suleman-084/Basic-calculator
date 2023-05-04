@@ -17,8 +17,8 @@
 
 **Build a simple calculator app which performs simple arithmetic operations such as addition, subtraction, multiplication and division.**
 
-**Created By**: Syed Ibrahim Shikalgar
+**Created By**: Mohammed Suleman
 
-**Time took to complete this project**: 3 Hours
+**Time took to complete this project**: 2 Hours
 
 ## [**Live-link**](https://calculator-application-calculation.netlify.app/) of the project
