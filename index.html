@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+  <body class="bg-[#15D194]">
+    <div class="container flex flex-col items-center mt-[5rem]">
+      <div class="headline-text text-[30px] mb-[40px] text-[#00000]">
+        <h1 class="heading">Welcome To Calculate Me!</h1>
+      </div>
+      <div class="user-input mb-[30px]">
+        <input class="input-box" type="text" />
+      </div>
+      <div class="row text-[20px] mb-[30px]">
+        <button
+          class="button border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[90px] rounded-[10px] border-[#000]"
+        >
+          AC
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          %
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[25px] hover:bg-[#1E293B] pr-[25px] rounded-[10px] border-[#000]"
+        >
+          /
+        </button>
+      </div>
+      <div class="row text-[20px] mb-[30px]">
+        <button
+          class="button ml-[5px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          7
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          8
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          9
+        </button>
+        <button
+          class="button ml-[30px] mr-[10px] border-2 py-[12px] hover:bg-[#1E293B] pl-[20px] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          *
+        </button>
+      </div>
+      <div class="row text-[20px] mb-[30px]">
+        <button
+          class="button ml-[5px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          4
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          5
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          6
+        </button>
+        <button
+          class="button ml-[30px] mr-[10px] border-2 py-[12px] hover:bg-[#1E293B] pl-[20px] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          -
+        </button>
+      </div>
+      <div class="row text-[20px] mb-[30px]">
+        <button
+          class="button ml-[5px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          1
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          2
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          3
+        </button>
+        <button
+          class="button ml-[30px] mr-[10px] border-2 py-[12px] hover:bg-[#1E293B] pl-[20px] pr-[20px] rounded-[10px] border-[#000]"
+        >
+          +
+        </button>
+      </div>
+      <div class="row text-[20px] mb-[30px]">
+        <button
+          class="button ml-[0px] border-2 py-[12px] pl-[20px] hover:bg-[#1E293B] pr-[100px] rounded-[10px] border-[#000]"
+        >
+          0
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[25px] hover:bg-[#1E293B] pr-[25px] rounded-[10px] border-[#000]"
+        >
+          .
+        </button>
+        <button
+          class="button ml-[30px] border-2 py-[12px] pl-[25px] pr-[25px] hover:bg-[#1E293B] rounded-[10px] border-[#000]"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
